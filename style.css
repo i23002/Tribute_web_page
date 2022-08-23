@@ -49,3 +49,19 @@ h4{
 ul li{
     font-size: 20px;
 }
+/* #footer to be noted as it would inline the div elements */
+footer{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#footer{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+#instagram , #facebook, #linkdin, #twitter{
+    display: inline-block;
+    vertical-align:middle;
+    padding: 1rem 1rem;   
+}
