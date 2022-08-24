@@ -92,21 +92,27 @@ footer{
     
 }
 button{
+    background-color: green;
     font-size: large;
-    display: block;
-    border-radius: 10%;
-    border:5px solid whitesmoke ;
+    display: inline-block;
+    border:none ;
     border-collapse: collapse;
+    text-decoration: none;
+    margin-bottom: 30px;
+    padding: 15px 32px;
+    border-radius: 9%;
 }
 #insta, #fb, #linkd, #twite{
     display: block;
     padding: 0px 5px 0px 5px;
+    color:white;
 }
-#insta{
-    background-color: #C13584 ;
+#Instagram{
+    background-color: #C13584;
     color: white;
-    border: 5px solid #c13584;
-    border-collapse: collapse;
+}
+#Facebook{
+    background-color: rgb(72, 119, 180);
 }
 
 
