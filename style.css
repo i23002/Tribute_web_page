@@ -1,3 +1,9 @@
+body , main{
+    background-color: rgba(45, 45, 45, 0.1);
+}
+p{
+    font-size: 22px;
+}
 article{
     display: block;
 }
@@ -18,6 +24,8 @@ h1{
 #img-div{
     display: grid;
     margin: 5px 5px 5px 5px;
+    background-color: #fff;
+    padding: 0px 5px 0px 5px;
     
 }
 #image{
@@ -25,6 +33,8 @@ h1{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
+    padding: 10px 5px 5px 5px;
 }
 #img-caption{
     margin-left: auto;
@@ -35,6 +45,8 @@ h3{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 15px;
+    font-weight: 10;
+    font-size: 30px;
 }
 #tribute-info{
     display: grid;
@@ -44,7 +56,11 @@ h3{
     
 }
 h4{
-    font-size: 25px;
+    font-size: 20px;
+}
+#foo{
+    background-color: #f21414e0;
+    color: white;
 }
 ul li{
     font-size: 20px;
@@ -70,49 +86,63 @@ footer{
 }
 */
 /*new code for display elements horizontally*/
-footer{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-}
 
 #items{
     display: flex;
     height: 10px;
     justify-content: center;
     /*vertical-align: center;*/
-    flex-direction: row-reverse;
-    margin: 5px 5px 5px 5px;
-    
+    flex-direction: row-reverse;  
+    background-color: #fff;
+    border: none;
+    text-decoration: none;
+   
 }
-#instagram , #facebook, #twitter, #linkdin{
+/*#instagram , #facebook, #twitter, #linkdin{
     margin-left: 10px;
     margin-right: 10px;
-    
-}
-button{
-    background-color: green;
-    font-size: large;
-    display: inline-block;
-    border:none ;
-    border-collapse: collapse;
-    text-decoration: none;
-    margin-bottom: 30px;
-    padding: 15px 32px;
-    border-radius: 9%;
+       
+}*/
+footer{
+    display: grid;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
 }
 #insta, #fb, #linkd, #twite{
-    display: block;
-    padding: 0px 5px 0px 5px;
-    color:white;
+    display: grid;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 25px;
 }
 #Instagram{
-    background-color: #C13584;
+    margin: 15px;
     color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
 }
 #Facebook{
-    background-color: rgb(72, 119, 180);
+    margin: 15px;
+    background-color:#4267B2 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#Linkdin{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    background-color:#0072b1;
+    border-radius: 50%;
+}
+#Twitter{
+    margin: 15px 0px 0px 0px;
+    width: 50px;
+    height: 50px;
+    background-color:#a3c5db;
+    border-radius: 50%;
 }
 
 
