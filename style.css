@@ -7,6 +7,10 @@ p{
 article{
     display: block;
 }
+.article1 , .article2 , .article3{
+    text-align: justify;
+    font-size: 19px;
+}
 h1{
     text-align: center;
     font-size: 50px;
@@ -68,27 +72,6 @@ h4{
 ul li{
     font-size: 20px;
 }
-/* #footer to be noted as it would inline the div elements 
-footer{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-#footer{
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-}
-#instagram, #twitter , #facebook, #linkdin{
-    display: inline-block;
-    vertical-align:middle;
-    padding: 2rem 2rem;   
-}
-#instagram{
-    padding: 25px 25px 25px 25px;
-}
-*/
-/*new code for display elements horizontally*/
 
 #items{
     display: flex;
@@ -101,11 +84,7 @@ footer{
     text-decoration: none;
    
 }
-/*#instagram , #facebook, #twitter, #linkdin{
-    margin-left: 10px;
-    margin-right: 10px;
-       
-}*/
+
 footer{
     display: grid;
     height: auto;
@@ -119,7 +98,7 @@ footer{
     margin-bottom: 25px;
 }
 #Instagram{
-    margin: 15px;
+    margin: 25px;
     color: white;
     width: 50px;
     height: 50px;
@@ -127,21 +106,21 @@ footer{
 
 }
 #Facebook{
-    margin: 15px;
+    margin: 25px;
     background-color:#4267B2 ;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 #Linkdin{
-    margin: 15px;
+    margin: 25px;
     width: 50px;
     height: 50px;
     background-color:#0072b1;
     border-radius: 50%;
 }
 #Twitter{
-    margin: 15px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     width: 50px;
     height: 50px;
     background-color:#a3c5db;
