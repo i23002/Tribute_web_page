@@ -126,5 +126,9 @@ footer{
     background-color:#a3c5db;
     border-radius: 50%;
 }
+#copy{
+    display: grid;
+    margin-top: -16px;
+}
 
 
