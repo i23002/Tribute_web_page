@@ -101,40 +101,48 @@ footer{
 #insta, #fb, #linkd, #twite{
     display: grid;
     padding: 0px 10px 0px 10px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 #Instagram{
     display: grid;
     margin: 25px;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
 
 }
 #Facebook{
     display: grid;
     margin: 25px;
     background-color:#4267B2 ;
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
 }
 #Linkdin{
     display: grid;
     margin: 25px;
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     background-color:#0072b1;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
 }
 #Twitter{
     display: grid;
     margin: 25px 0px 0px 0px;
-    width: 50px;
-    height: 50px;
+    width: 2em;
+    height: 2em;
     background-color:#a3c5db;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
 }
 #copy{
     display: grid;
